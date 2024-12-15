@@ -1,0 +1,28 @@
+Git Commands 
++========+++++++++++++++++++++
+1) git init 
+
+2) git remote add origin https://Your repository URL/git 
+
+3) git add -A
+
+4) git commit -m "first commit"
+
+5) git branch -M main
+
+6) git push -u origin main 
+
+7)  git UserName : YOUR USERNAME 
+
+8)  PASSWORD:  YOUR PASSWORD
+
+
+Identification commands for git 
+
+9) git config --global user.email "YOUR GITHUB MAIL"
+
+
+10) git config --global user.name "YOUR GITHUB USERNAME"
+
+
+
