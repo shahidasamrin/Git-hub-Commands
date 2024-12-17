@@ -24,5 +24,99 @@ Identification commands for git
 
 10) git config --global user.name "YOUR GITHUB USERNAME"
 
+Git is a very popular version control system.
+git --version
+
+Configuration of a git:
+git config --global user.email "YOUR GITHUB MAIL"
+git config --global user.name "YOUR GITHUB USERNAME"
+git config --list
+
+
+
+Clone- Cloning s repository on your local machine
+git clone <<https clone link>>
+
+
+
+status- displays the state of the code
+git status
+
+
+
+untracked = files that git doesn't yet track
+modified = changed
+staged= file is ready to be committed
+unmodified=unchanged
+
+
+add- adds new or changed files in your working directory to the Git staging area
+git add <<file name>>   or   git add .   or   git add -A
+
+
+commit - It is record of change 
+git commit -m "some message"
+
+push- upload local repo content to remote repo
+git push -u origin main
+
+Create a new repository
+git init
+
+git remote add origin <<repository link>>
+git remote -v (to verify remote)
+
+
+Branch Commands :
+git branch (to check branch)
+git branch -M main(to rename branch)
+git checkout <<branch name>> (to navigate)
+git checkout -b <<new branch name>>  (to create a new branch)
+git branch -d <<branch name>> (to delete branch)
+
+
+Merging Code:
+git diff <<branch name>> ( to compare commit,branches, files & more)
+git merge <<branch name>>   (to merge 2 branches)
+
+
+Pull Request :
+It lets you tell others about changes you've pushed to a branch in a repository on Github.
+
+git pull origin main (used to fetch and download content from a remote repo and immediately update the local repo to match that content.)
+
+
+Resolving Merge Conflicts :
+An event that takes place when git is unable to automatically resolve difference in code between two commits.
+
+Undoing Changes :
+Case-1 :git reset <<filename>>
+        git reset
+
+Case-2:commited changes for one commit ( go back to the last but one commit)
+       git reset HEAD~1
+
+Case-3:committed changes for many commits
+       git reset <<commit id>>
+       git reset --hard <<commit id>>
+
+Fork : Fork is a new repository that shares code and visibility settings with the original "upstream" repository"
+       Fork is a rough copy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
